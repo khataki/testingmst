@@ -1,0 +1,11 @@
+/* Пример подключения шрифта Prata */
+@font-face {
+    font-family: 'Prata-Regular';
+    src: url('../fonts/Prata-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.benefits li span .cool_font {
+    font-family: 'Prata', serif;
+    font-size: 40px;
+}

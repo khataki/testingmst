@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 50vw;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header li {
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.logo {
+    font-family: 'Prata-Regular', serif;
+    font-size: 36px;
+}
